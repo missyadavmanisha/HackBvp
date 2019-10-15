@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">SIH19</string>
+    <string name="read_more">read more</string>
+    <string name="detail_content">detail content</string>
+    <string name="govt_schems">Govt Schemes</string>
+    <string name="help">Help</string>
+    <string name="facing_problem">Facing Problems?</string>
+    <string name="watch_tutorial">Watch Tutorial</string>
+    <string name="watch_now">Click here to watch</string>
+    <string name="apply">Apply</string>
+    <string name="name">Name</string>
+    <string name="content">Content</string>
+    <string name="location">Location</string>
+    <string name="diet_plan">Diet Plan</string>
+    <string name="breakfast">BreakFast</string>
+    <string name="lunch">Lunch</string>
+    <string name="snacks">Snacks</string>
+    <string name="dinner">Dinner</string>
+    <string name="Forgot_Password_Click_Here">Forget Password Click Here</string>
+    <string name="New_User_Sign_Up">New user Sign Up</string>
+    <string name="Login">Login</string>
+    <string name="password">Password</string>
+    <string name="email_address">Email Address</string>
+    <string name="Already_Registered_Login">Already Registred Login</string>
+    <string name="CANCEL">Cancel</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="SendMail">Send Mail</string>
+
+    <string name="google_maps_API_key">AIzaSyD4GjGI7-L3pnpRE2c8mAUYrr6LEyjmQqg</string>
+    <string name="title_activity_maps">Shishu Kalyan</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="option_get_place">Get place</string>
+    <string name="pick_place">Choose a place</string>
+    <string name="map_next">Get Nearby Hospitals</string>
+
+    <array name="language">
+        <item>English</item>
+        <item>Hindi</item>
+        <item>Telugu</item>
+        <item>Tamil</item>
+        <item>Gujarati</item>
+        <item>Punjabi</item>
+    </array>
+
+
+    <string name="Speechtherapy">Speech Therapy</string>
+
+</resources>
+
