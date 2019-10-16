@@ -6,7 +6,7 @@
     android:fitsSystemWindows="true"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity1"
+    tools:context=".HomePageActivity"
     tools:openDrawer="start"
     android:background="@drawable/homepage"
     style="@style/AppTheme">
@@ -75,7 +75,7 @@
             android:text="Shishu Kalyan"
             android:textColor="@android:color/white"
             android:textSize="17dp"
-            app:layout_constraintBottom_toTopOf="@+id/profileCard"
+            app:layout_constraintBottom_toTopOf="@+id/profileCardView"
             app:layout_constraintStart_toEndOf="@+id/linearLayout21"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.4" />
@@ -96,7 +96,7 @@
 
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/profileCard"
+            android:id="@+id/profileCardView"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:layout_marginStart="12dp"
@@ -131,7 +131,7 @@
 
 
                 <TextView
-                    android:id="@+id/pgNameTextView"
+                    android:id="@+id/babyNametextView"
                     android:layout_width="wrap_content"
                     android:layout_height="26dp"
                     android:layout_marginStart="8dp"
@@ -147,7 +147,7 @@
 
 
                 <TextView
-                    android:id="@+id/any"
+                    android:id="@+id/bmiTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
@@ -159,10 +159,10 @@
                     android:textSize="18dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/imageView15"
-                    app:layout_constraintTop_toBottomOf="@+id/pgNameTextView" />
+                    app:layout_constraintTop_toBottomOf="@+id/babyNametextView" />
 
                 <TextView
-                    android:id="@+id/a"
+                    android:id="@+id/ageTextview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
@@ -174,7 +174,7 @@
                     android:textSize="18dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/imageView15"
-                    app:layout_constraintTop_toBottomOf="@+id/any" />
+                    app:layout_constraintTop_toBottomOf="@+id/bmiTextView" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -194,7 +194,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/profileCard">
+            app:layout_constraintTop_toBottomOf="@+id/profileCardView">
 
 
             <LinearLayout
@@ -207,11 +207,11 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/profileCard"
+                app:layout_constraintTop_toBottomOf="@+id/profileCardView"
                 tools:layout_editor_absoluteY="188dp">
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/accountsCardView"
+                    android:id="@+id/videoDiagnosisCardView"
                     android:layout_width="95dp"
                     android:layout_height="100dp"
                     android:layout_marginTop="5dp"
@@ -268,7 +268,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/rentBillCollectionCard"
+                    android:id="@+id/speechTherapyCardView"
                     android:layout_width="95dp"
                     android:layout_height="100dp"
                     android:layout_marginStart="20dp"
@@ -318,7 +318,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/addBillButton"
+                    android:id="@+id/gamesCardView"
                     android:layout_width="95dp"
                     android:layout_height="100dp"
                     android:layout_marginStart="20dp"
@@ -384,7 +384,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/tenantImageView"
+                    android:id="@+id/immunityReminderCardView"
                     android:layout_width="95dp"
                     android:layout_height="100dp"
                     android:layout_marginTop="5dp"
@@ -440,7 +440,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/roomCardView"
+                    android:id="@+id/nearByHelpCardView"
                     android:layout_width="95dp"
                     android:layout_height="100dp"
                     android:layout_marginStart="20dp"
@@ -493,7 +493,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/feedbackCardView"
+                    android:id="@+id/educationalCardView"
                     android:layout_width="95dp"
                     android:layout_height="100dp"
                     android:layout_marginStart="20dp"
@@ -562,7 +562,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/staffImageView"
+                    android:id="@+id/govtSchemsCardView"
                     android:layout_width="95dp"
                     android:layout_height="100dp"
                     android:layout_marginTop="5dp"
@@ -618,7 +618,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/foodButton"
+                    android:id="@+id/dataBankCardView"
                     android:layout_width="95dp"
                     android:layout_height="100dp"
                     android:layout_marginStart="20dp"
@@ -674,7 +674,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/complaintsCardView"
+                    android:id="@+id/dietCardView"
                     android:layout_width="95dp"
                     android:layout_height="100dp"
                     android:layout_marginStart="20dp"

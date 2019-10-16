@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
-    tools:context="MainActivity1">
+    tools:context=".HomePageActivity">
 
     <TextView
         android:id="@+id/textView21"

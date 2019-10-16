@@ -110,7 +110,7 @@ public class InputActivity extends AppCompatActivity {
                                         databaseReference.child("Initial Detail").setValue(intialClass).addOnCompleteListener(new OnCompleteListener<Void>() {
                                             @Override
                                             public void onComplete(@NonNull Task<Void> task) {
-                                                startActivity(new Intent(InputActivity.this, MainActivity1.class));
+                                                startActivity(new Intent(InputActivity.this, HomePageActivity.class));
                                             }
                                         });
 

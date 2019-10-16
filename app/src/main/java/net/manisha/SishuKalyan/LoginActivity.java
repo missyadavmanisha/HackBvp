@@ -79,7 +79,7 @@ public class LoginActivity extends AppCompatActivity {
 
         //If user kills the app without logging out, he/she should not need to login again.
         if(mFirebaseUser!=null){
-            startActivity(new Intent(LoginActivity.this, MainActivity1.class));
+            startActivity(new Intent(LoginActivity.this, HomePageActivity.class));
             finish();
         }
 
@@ -103,7 +103,7 @@ public class LoginActivity extends AppCompatActivity {
 
                                 mFirebaseUser = mFirebaseAuth.getCurrentUser();
 
-                                startActivity(new Intent(LoginActivity.this, MainActivity1.class));
+                                startActivity(new Intent(LoginActivity.this, HomePageActivity.class));
                                 finish();
 
                             } else {
