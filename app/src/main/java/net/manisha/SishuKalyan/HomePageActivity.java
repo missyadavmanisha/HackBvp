@@ -44,7 +44,7 @@ public class HomePageActivity extends AppCompatActivity {
         videoDiagnosisCardView = findViewById(R.id.videoDiagnosisCardView);
         speechTherpyCardView = findViewById(R.id.speechTherapyCardView);
         gamesCardView = findViewById(R.id.gamesCardView);
-        immunityCardView = findViewById(R.id.immunizationCardView);
+        immunityCardView = findViewById(R.id.immunityReminderCardView);
         nearByHelpCardView = findViewById(R.id.nearByHelpCardView);
         educationalCardView = findViewById(R.id.educationalCardView);
         govtSchemesCardView = findViewById(R.id.govtSchemsCardView);
@@ -58,7 +58,6 @@ public class HomePageActivity extends AppCompatActivity {
         logoutTextView = findViewById(R.id.logoutTextView);
 
         notificationImageView = findViewById(R.id.notificationImage);
-
 
       /*  CallLanguage callLanguage;
 
@@ -170,6 +169,7 @@ public class HomePageActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
         dataBankCardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -251,7 +251,6 @@ public class HomePageActivity extends AppCompatActivity {
                 startActivity(new Intent(HomePageActivity.this, Notification.class));
             }
         });
-
 
     }
 }
