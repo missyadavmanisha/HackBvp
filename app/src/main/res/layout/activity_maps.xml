@@ -24,7 +24,7 @@
         android:layout_marginTop="15dp"
         android:scaleType="centerCrop"
         android:id="@+id/img_place_info"
-        android:src="@drawable/ic_info"/>
+        android:src="@drawable/ib_bug_ic_attach_img"/>
 
     <LinearLayout
         android:layout_marginTop="15dp"

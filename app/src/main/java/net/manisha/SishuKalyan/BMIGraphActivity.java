@@ -2,15 +2,9 @@ package net.manisha.SishuKalyan;
 
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
-import com.google.firebase.database.FirebaseDatabase;
-import com.jjoe64.graphview.GraphView;
-import com.jjoe64.graphview.series.DataPoint;
-import com.jjoe64.graphview.series.PointsGraphSeries;
-
+import androidx.appcompat.app.AppCompatActivity;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,7 +18,7 @@ import lecho.lib.hellocharts.view.LineChartView;
 
 public class BMIGraphActivity extends AppCompatActivity {
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_bmi_curve);
        // GraphView graphView=findViewById(R.id.graphView);

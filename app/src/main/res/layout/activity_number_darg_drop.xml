@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_margin="8dp"
@@ -56,9 +56,9 @@
                     android:textColor="@color/black"
                     android:textSize="32dp"
                     android:textStyle="bold" />
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_margin="8dp"
@@ -76,9 +76,9 @@
                     android:textColor="@color/black"
                     android:textSize="32dp"
                     android:textStyle="bold" />
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_margin="8dp"
@@ -96,9 +96,9 @@
                     android:textColor="@color/black"
                     android:textSize="32dp"
                     android:textStyle="bold" />
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_margin="8dp"
@@ -116,7 +116,7 @@
                     android:textColor="@color/black"
                     android:textSize="32dp"
                     android:textStyle="bold" />
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
         </LinearLayout>
 
         <LinearLayout
@@ -125,7 +125,7 @@
             android:gravity="center"
             android:orientation="horizontal">
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_margin="8dp"
@@ -142,9 +142,9 @@
                     android:textColor="@color/black"
                     android:textSize="32dp"
                     android:textStyle="bold" />
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_margin="8dp"
@@ -161,9 +161,9 @@
                     android:textColor="@color/black"
                     android:textSize="32dp"
                     android:textStyle="bold" />
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_margin="8dp"
@@ -180,7 +180,7 @@
                     android:textColor="@color/black"
                     android:textSize="32dp"
                     android:textStyle="bold" />
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
         </LinearLayout>
 
     </LinearLayout>
@@ -202,7 +202,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_margin="8dp"
@@ -220,9 +220,9 @@
                     android:textColor="@android:color/white"
                     android:textSize="20dp"
                     android:textStyle="bold" />
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_margin="8dp"
@@ -240,9 +240,9 @@
                     android:textColor="@android:color/white"
                     android:textSize="20dp"
                     android:textStyle="bold" />
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_margin="8dp"
@@ -260,9 +260,9 @@
                     android:textColor="@android:color/white"
                     android:textSize="20dp"
                     android:textStyle="bold" />
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_margin="8dp"
@@ -280,7 +280,7 @@
                     android:textColor="@android:color/white"
                     android:textSize="20dp"
                     android:textStyle="bold" />
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
         </LinearLayout>
 
         <LinearLayout
@@ -289,7 +289,7 @@
             android:gravity="center"
             android:orientation="horizontal">
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_margin="8dp"
@@ -306,9 +306,9 @@
                     android:textColor="@android:color/white"
                     android:textSize="24dp"
                     android:textStyle="bold" />
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_margin="8dp"
@@ -325,9 +325,9 @@
                     android:textColor="@android:color/white"
                     android:textSize="20dp"
                     android:textStyle="bold" />
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_margin="8dp"
@@ -344,7 +344,7 @@
                     android:textColor="@android:color/white"
                     android:textSize="20dp"
                     android:textStyle="bold" />
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
         </LinearLayout>
     </LinearLayout>
 

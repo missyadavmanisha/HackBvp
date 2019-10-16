@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".NearbyPlacesMapView">
 
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -36,7 +36,7 @@
             tools:layout_editor_absoluteX="40dp"
             tools:layout_editor_absoluteY="12dp" />
 
-    </android.support.v7.widget.Toolbar>
+    </androidx.appcompat.widget.Toolbar>
 
     <com.google.android.gms.maps.MapView
         android:id="@+id/mapView"

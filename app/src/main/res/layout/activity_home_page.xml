@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/homeLayout"
@@ -9,7 +9,7 @@
     tools:context=".MainActivity1"
     tools:openDrawer="start"
     android:background="@drawable/homepage"
-    style="@style/AppTheme.TransparentStatusBar">
+    style="@style/AppTheme">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/homepageConstraintLayout"
@@ -39,7 +39,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-                <android.support.v7.widget.Toolbar
+                <androidx.appcompat.widget.Toolbar
                     android:id="@+id/toolbarhome"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -95,7 +95,7 @@
             app:srcCompat="@drawable/nonotification" />
 
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:id="@+id/profileCard"
             android:layout_width="match_parent"
             android:layout_height="120dp"
@@ -179,7 +179,7 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
 
 
@@ -210,7 +210,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/profileCard"
                 tools:layout_editor_absoluteY="188dp">
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:id="@+id/accountsCardView"
                     android:layout_width="95dp"
                     android:layout_height="100dp"
@@ -265,9 +265,9 @@
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:id="@+id/rentBillCollectionCard"
                     android:layout_width="95dp"
                     android:layout_height="100dp"
@@ -315,9 +315,9 @@
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:id="@+id/addBillButton"
                     android:layout_width="95dp"
                     android:layout_height="100dp"
@@ -369,7 +369,7 @@
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
             </LinearLayout>
 
             <LinearLayout
@@ -383,7 +383,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:id="@+id/tenantImageView"
                     android:layout_width="95dp"
                     android:layout_height="100dp"
@@ -437,9 +437,9 @@
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:id="@+id/roomCardView"
                     android:layout_width="95dp"
                     android:layout_height="100dp"
@@ -490,9 +490,9 @@
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:id="@+id/feedbackCardView"
                     android:layout_width="95dp"
                     android:layout_height="100dp"
@@ -546,7 +546,7 @@
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
             </LinearLayout>
 
             <LinearLayout
@@ -561,7 +561,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:id="@+id/staffImageView"
                     android:layout_width="95dp"
                     android:layout_height="100dp"
@@ -615,9 +615,9 @@
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:id="@+id/foodButton"
                     android:layout_width="95dp"
                     android:layout_height="100dp"
@@ -671,9 +671,9 @@
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:id="@+id/complaintsCardView"
                     android:layout_width="95dp"
                     android:layout_height="100dp"
@@ -728,7 +728,7 @@
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
             </LinearLayout>
 
         </LinearLayout>
@@ -759,4 +759,4 @@
             app:layout_constraintEnd_toEndOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-</android.support.v4.widget.DrawerLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

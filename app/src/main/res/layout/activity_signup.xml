@@ -198,7 +198,7 @@
 
     </LinearLayout>
 
-    <android.support.design.widget.FloatingActionButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/btnSignUp"
         android:layout_width="60dp"
@@ -212,7 +212,7 @@
         android:clickable="true"
         android:elevation="100dp"
         android:focusable="true"
-        android:src="@drawable/ic_chevron_right_black_24dp"
+        android:src="@drawable/b_img"
         app:backgroundTint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -13,7 +13,7 @@
         android:layout_marginTop="50sp"
         android:layout_margin="30sp"
         android:orientation="horizontal">
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:id="@+id/roomCardView"
             android:layout_width="95dp"
             android:layout_height="100dp"
@@ -48,9 +48,9 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView1" />
 
 
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="95dp"
             android:layout_height="100dp"
             android:layout_marginTop="8dp"
@@ -84,11 +84,11 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView1" />
 
 
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
     </LinearLayout>
 
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_marginTop="8dp"
@@ -121,6 +121,6 @@
             app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
 </LinearLayout>

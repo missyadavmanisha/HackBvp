@@ -1,20 +1,20 @@
 package net.manisha.SishuKalyan;
 
+import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.CardView;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.codingblocks.sih19.NearbyPlace.ActivityMapsCurrentPlace;
-import com.codingblocks.sih19.NearbyPlace.Notification;
+
 import com.google.firebase.auth.FirebaseAuth;
 
 import java.text.DateFormat;

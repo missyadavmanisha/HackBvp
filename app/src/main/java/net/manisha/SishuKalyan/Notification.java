@@ -1,10 +1,9 @@
 package net.manisha.SishuKalyan;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 
-import com.codingblocks.sih19.R;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Notification extends AppCompatActivity {
 

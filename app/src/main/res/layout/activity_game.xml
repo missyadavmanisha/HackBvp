@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".GameActivity">
 
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/cardView2"
         android:layout_width="match_parent"
         android:layout_height="?android:attr/actionBarSize"
@@ -40,7 +40,7 @@
             android:textColor="@android:color/white"
             android:textSize="18dp" />
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -62,7 +62,7 @@
             android:gravity="center"
             android:orientation="horizontal">
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/pictureGameButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -94,9 +94,9 @@
                         android:textColor="@color/colorAccent"
                         android:textSize="18dp" />
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/colorGameButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -127,7 +127,7 @@
                         android:textColor="@color/colorAccent"
                         android:textSize="18dp" />
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
         </LinearLayout>
 
         <LinearLayout
@@ -137,7 +137,7 @@
             android:gravity="center"
             android:orientation="horizontal">
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/visionGameButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -168,9 +168,9 @@
                         android:textColor="@color/colorAccent"
                         android:textSize="18dp" />
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/musclesGameButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -201,7 +201,7 @@
                         android:textColor="@color/colorAccent"
                         android:textSize="18dp" />
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
         </LinearLayout>
 
         <LinearLayout
@@ -211,7 +211,7 @@
             android:gravity="center"
             android:orientation="horizontal">
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/matchGameButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -242,9 +242,9 @@
                         android:textColor="@color/colorAccent"
                         android:textSize="18dp" />
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/quizGameButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -275,7 +275,7 @@
                         android:textColor="@color/colorAccent"
                         android:textSize="18dp" />
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

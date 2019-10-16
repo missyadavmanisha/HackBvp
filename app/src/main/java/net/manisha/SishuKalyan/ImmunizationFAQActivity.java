@@ -1,13 +1,15 @@
 package net.manisha.SishuKalyan;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.LinearLayoutManager;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.DefaultItemAnimator;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import android.util.Log;
 import android.view.animation.AnimationUtils;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -40,7 +42,6 @@ public class ImmunizationFAQActivity extends AppCompatActivity {
         faqRecyclerView.setLayoutManager(layoutManager);
         faqRecyclerView.setItemAnimator(new DefaultItemAnimator());
         faqRecyclerView.setAdapter(immunizationFAQDetailList);
-        faqRecyclerView.setLayoutAnimation(AnimationUtils.loadLayoutAnimation(getApplicationContext(),R.anim.layout_fall_down));
 
     }
 }

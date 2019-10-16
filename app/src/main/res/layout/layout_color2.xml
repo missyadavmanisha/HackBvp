@@ -9,7 +9,7 @@
         android:id="@+id/tvNameOfColor"
         android:layout_marginTop="50dp"
         android:text="Pink"
-        android:textColor="@color/black"
+        android:textColor="@color/colorPrimaryDark"
         android:textStyle="bold"
         android:layout_gravity="center"
         android:layout_height="wrap_content"
