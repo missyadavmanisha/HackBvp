@@ -17,6 +17,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 
+import com.crashlytics.android.Crashlytics;
 import com.google.firebase.auth.FirebaseAuth;
 
 import java.text.DateFormat;
@@ -102,6 +103,7 @@ public class HomePageActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(HomePageActivity.this, ProfileActivity.class));
+
 
             }
         });

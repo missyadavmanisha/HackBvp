@@ -45,7 +45,7 @@ public class DragDropLevel2 extends AppCompatActivity implements View.OnTouchLis
             Log.e("TAG","Target"+text+" options"+options);
             firebaseDatabase = FirebaseDatabase.getInstance();
 
-            databaseReference = firebaseDatabase.getReference("CerebralPalsy/Personal Details/Hr4btxFKRqM05RVElOjSYcqiuaq1").child("Intial Detail").child("DragColour");
+            databaseReference = firebaseDatabase.getReference("CerebralPalsy/Personal Details/Hr4btxFKRqM05RVElOjSYcqiuaq1/Intial Detail/DragColour");
             databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot dataSnapshot) {

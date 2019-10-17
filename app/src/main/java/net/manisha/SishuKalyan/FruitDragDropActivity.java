@@ -54,8 +54,9 @@ public class FruitDragDropActivity extends AppCompatActivity implements View.OnT
                 }
                 else if(options.equals("papaya")&&text.equals("6"))
                 {
-                    Toast.makeText(this, "6 three", Toast.LENGTH_SHORT).show();
-                    Log.e("TAG","INSIDE 2");
+                    text13.setTextColor(getResources().getColor(R.color.white));
+                    text13.setBackgroundColor(getResources().getColor(R.color.ib_fr_add_comment_error));
+                    Toast.makeText(this, "papaya", Toast.LENGTH_SHORT).show();
                 }
                 else if(options.equals("Orange")&&text.equals("7"))
                 {

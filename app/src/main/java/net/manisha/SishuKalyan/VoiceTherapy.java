@@ -97,12 +97,16 @@ public class VoiceTherapy extends AppCompatActivity implements TextToSpeech.OnIn
 
                     speakOut("Very well done");
                     count++;
+                    count = count%5;
                 } else if (score > 0.50) {
+
                     speakOut("You need to practice more");
                     count++;
+                    count = count%5;
                 } else {
                     speakOut("Oops, you missed it. Please Try again");
                     count--;
+                    count = count%5;
                 }
             }
         } else {
@@ -117,7 +121,6 @@ public class VoiceTherapy extends AppCompatActivity implements TextToSpeech.OnIn
         if (status == TextToSpeech.SUCCESS) {
             tts.setLanguage(Locale.forLanguageTag("hin"));
             tts.setPitch((float) 0.70);
-
         }
     }
 
