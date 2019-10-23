@@ -53,12 +53,17 @@ public class ActivityMapsCurrentPlace extends FragmentActivity implements OnMapR
     PlaceInfo mPlace;
     Marker mCurrLocationMarker;
     LocationRequest mLocationRequest;
+    Button btnHospitals, btnDoctors, btnMedicalStores;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
+
         placeInfo = findViewById(R.id.img_place_info);
+        btnHospitals =  findViewById(R.id.btnGetNearestHospitals);
+        btnMedicalStores=findViewById(R.id.btnGetNearestMedicalStores);
+        btnDoctors=findViewById(R.id.btnGetNearestDoctors);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             checkLocationPermission();
@@ -118,11 +123,15 @@ public class ActivityMapsCurrentPlace extends FragmentActivity implements OnMapR
             mMap.setMyLocationEnabled(true);
         }
 
-        Button btnHospitals =  findViewById(R.id.btnGetNearestHospitals);
         btnHospitals.setOnClickListener(new View.OnClickListener() {
             String nearBy = "hospital";
             @Override
             public void onClick(View v) {
+
+                btnHospitals.setBackgroundColor(getResources().getColor(R.color.red));
+                btnDoctors.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
+                btnMedicalStores.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
+
                 Log.d("onClick", "Button is Clicked");
                 mMap.clear();
                 String url = getUrl(latitude, longitude, nearBy);
@@ -132,16 +141,20 @@ public class ActivityMapsCurrentPlace extends FragmentActivity implements OnMapR
                 Log.d("onClick", url);
                 GetNearbyPlacesData getNearbyPlacesData = new GetNearbyPlacesData();
                 getNearbyPlacesData.execute(DataTransfer);
+
                 Toast.makeText(ActivityMapsCurrentPlace.this,"Nearby Hospitals", Toast.LENGTH_LONG).show();
             }
         });
 
-        Button btnDoctors=findViewById(R.id.btnGetNearestDoctors);
         btnDoctors.setOnClickListener(new View.OnClickListener() {
             String nearBy = "doctor";
             @Override
             public void onClick(View v) {
-               // Log.d("onClick", "Button is Clicked");
+
+                btnHospitals.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
+                btnDoctors.setBackgroundColor(getResources().getColor(R.color.red));
+                btnMedicalStores.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
+
                 mMap.clear();
                 String url = getUrl(latitude, longitude, nearBy);
                 Object[] DataTransfer = new Object[2];
@@ -154,12 +167,15 @@ public class ActivityMapsCurrentPlace extends FragmentActivity implements OnMapR
             }
         });
 
-        Button btnMedicalStores=findViewById(R.id.btnGetNearestMedicalStores);
         btnMedicalStores.setOnClickListener(new View.OnClickListener() {
             String nearBy = "pharmacy";
             @Override
             public void onClick(View v) {
-                // Log.d("onClick", "Button is Clicked");
+
+                btnMedicalStores.setBackgroundColor(getResources().getColor(R.color.red));
+                btnDoctors.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
+                btnHospitals.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
+
                 mMap.clear();
                 String url = getUrl(latitude, longitude, nearBy);
                 Object[] DataTransfer = new Object[2];
@@ -172,7 +188,7 @@ public class ActivityMapsCurrentPlace extends FragmentActivity implements OnMapR
             }
         });
 
-      /*  placeInfo.setOnClickListener(new View.OnClickListener() {
+       placeInfo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Log.d(TAG, "onClick: clicked place info");
@@ -187,7 +203,7 @@ public class ActivityMapsCurrentPlace extends FragmentActivity implements OnMapR
                     Log.e(TAG, "onClick: NullPointerException: " + e.getMessage() );
                 }
             }
-        });*/
+        });
     }
 
     protected synchronized void buildGoogleApiClient() {

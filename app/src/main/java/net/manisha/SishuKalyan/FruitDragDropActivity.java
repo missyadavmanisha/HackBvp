@@ -72,8 +72,6 @@ public class FruitDragDropActivity extends AppCompatActivity implements View.OnT
             else if(text.equals(text2.getText().toString())) text2.setVisibility(View.VISIBLE);
             else if(text.equals(text3.getText().toString())) text3.setVisibility(View.VISIBLE);
 */
-                dropTarget.setText(dropped.getText());
-                dropTarget.setBackgroundColor(Color.BLUE);
             }
             return true;
         }
